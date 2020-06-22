@@ -7,7 +7,7 @@ const SearchBox = ({ onSearch }) => {
         className="searchbox  bg-white br2 pa1 ba b--silver  "
         onChange={onSearch}
         type="search"
-        placeholder="Search a robot"
+        placeholder="Search  robots"
       />
     </div>
   );
