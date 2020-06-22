@@ -34,7 +34,7 @@ class App extends Component {
       robot.name.toLowerCase().includes(searchField.toLowerCase())
     );
     return isPending ? (
-      <h1>Loading</h1>
+      <h1 className="tc">Loading</h1>
     ) : (
       <div>
         <h1 className="tc"> Home of Robos</h1>
